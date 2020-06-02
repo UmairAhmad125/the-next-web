@@ -12,7 +12,7 @@ Using media queries to achieve responsiveness.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/the-next-web/4d9ebb429166650306ac0837eda200659fd63c37/index.html)
+[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/the-next-web/4317849cac25981a9059a77b2dee02eaf99b5806/index.html)
 
 ## Author
 
