@@ -19,7 +19,7 @@ Using media queries to achieve responsiveness.
 👤 **Umair Ahmad**
 
 - Github: [@umairahmad125](https://github.com/UmairAhmad125)
-- Linkedin: https://www.linkedin.com/in/talha-waqar-977257145/
+- Linkedin: https://www.linkedin.com/in/umair-ahmad-b5a89015a/
 - Twitter: [@umairahmadDP](https://twitter.com/umairahmadDP)
 - email: (umairahmad125@gmail.com)
 
