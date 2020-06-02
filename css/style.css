@@ -8,18 +8,18 @@
   background-color: #fefefe;
 }
 
+.top-elements,
 .mid-div-left {
   display: none;
 }
 
-.top-elements {
-  display: none;
+.align {
+  align-items: center;
+  justify-content: center;
 }
 
 .tnw-logo {
   display: flex;
-  align-items: center;
-  justify-content: center;
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 106px;
 }
@@ -30,12 +30,10 @@
 }
 
 .right-elements {
-  display: flex;
+  display: fno-borderlex;
   max-width: 100px;
   border: 0.1px solid rgb(190, 188, 188);
   text-align: center;
-  align-items: center;
-  justify-content: center;
 }
 
 .mid-div-right {
@@ -47,8 +45,6 @@
   width: 48px;
   height: 48px;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .search-img img,
@@ -65,8 +61,6 @@
   width: 100%;
   background-color: yellow;
   display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 14px;
   position: fixed;
   z-index: 2;
@@ -97,8 +91,6 @@ a {
 
 .article-img {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .article-date {
@@ -236,7 +228,7 @@ a {
   display: flex;
   flex-direction: column;
   padding-left: 1.5%;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .fund-header h2 {
@@ -344,8 +336,6 @@ a {
 
 .tech-img {
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 15px;
 }
 
@@ -363,6 +353,7 @@ a {
 .deals h3 {
   font-size: 18px;
   color: red;
+  margin-right: 2.5%;
 }
 
 .tech-content a h3 {
@@ -468,8 +459,6 @@ a {
 .social-icons {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: #131313;
   height: 160px;
 }
@@ -501,8 +490,6 @@ a {
 
 .bottom-footer {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #000;
   height: 122px;
 }
@@ -524,16 +511,6 @@ a {
   .deals {
     margin-left: 2.5vw;
     margin-right: 2.5vw;
-  }
-
-  .tnw-max {
-    display: block;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    min-height: 400px;
-    min-width: 400px;
-    background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
   }
 
   .nav-bar-h {
@@ -682,22 +659,32 @@ a {
   .fund-a {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
   }
 
   .funding-expand {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
   .fund-a a {
     border-right: 1px solid red;
-    padding: 0 15px 0 15px;
+    padding: 0 25px 0 5px;
   }
 
   .tech-articles {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .bottom-tech a {
+    color: black;
+    font-size: 1rem;
+  }
+
+  .fund-a a:last-child {
+    border: none;
   }
 
   .tech-content a h3 {
@@ -723,11 +710,6 @@ a {
     font-size: 1rem;
   }
 
-  .bottom-tech a {
-    color: black;
-    font-size: 1rem;
-  }
-
   .tech-resp {
     width: 94%;
     height: 100%;
@@ -740,6 +722,16 @@ a {
 }
 
 @media only screen and (min-width: 1024px) {
+  .tnw-max {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    min-height: 400px;
+    min-width: 400px;
+    background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
+  }
+
   .article-h {
     min-width: 550px;
   }
@@ -766,6 +758,22 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+  }
+
+  .fund-a {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .funding-expand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .fund-a a {
+    border-right: 1px solid red;
+    padding: 0 15px 0 15px;
   }
 
   .tech-articles {
