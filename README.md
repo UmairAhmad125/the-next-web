@@ -12,7 +12,7 @@ Using media queries to achieve responsiveness.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/smashing-magazine-heatmap/31c159f578830f79b4bf7022a9eaf36a2313fad6/index.html)
+[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/the-next-web/4d9ebb429166650306ac0837eda200659fd63c37/index.html)
 
 ## Author
 
